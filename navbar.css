@@ -1,0 +1,47 @@
+#nav-bar {
+  height: 22%;
+  background: radial-gradient(#36495ed0, #1a1f24d0);
+}
+
+#nav-bar2 {
+  height: 7%;
+  background: radial-gradient(#36495ed0, #1a1f24d0);
+  z-index: 100;
+}
+
+#navigation {
+  padding-left: 20%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+}
+
+#navigation2 {
+  padding-left: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+  z-index: 100;
+}
+
+#header {
+  height: 70%;
+  /* background-color: darkred; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#small-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.nav-bar-link {
+  text-decoration: none;
+  color: white;
+}
