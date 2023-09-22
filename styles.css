@@ -10,6 +10,19 @@ body {
   /* overflow-x: hidden; */
   overflow-y: auto;
 }
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #272f37; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #48617a; /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: transparent; /* creates padding around scroll thumb */
+}
 
 body:after {
   content: "";
