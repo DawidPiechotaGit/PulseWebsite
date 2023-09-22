@@ -101,3 +101,34 @@
   text-decoration: none;
   color: white;
 }
+
+.nav-bar-link:hover {
+  color: #849db4;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  z-index: 1;
+}
+
+.dropdown-content > a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-content > a:hover {
+  color: #849db4;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
