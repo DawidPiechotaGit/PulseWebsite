@@ -103,7 +103,12 @@
 }
 
 .nav-bar-link:hover {
+  transition: 0.5s;
   color: #849db4;
+}
+
+.nav-bar-link:not(:hover) {
+  transition: 0.5s;
 }
 
 .dropdown {
