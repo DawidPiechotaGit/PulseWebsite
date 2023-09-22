@@ -7,6 +7,8 @@ body {
   margin: 0rem;
   overflow: hidden;
   font-family: "Rajdhani";
+  /* overflow-x: hidden; */
+  overflow-y: auto;
 }
 
 body:after {
@@ -20,6 +22,35 @@ body:after {
   width: 100%;
   height: 1px;
   filter: blur(3px);
+}
+
+#about-us {
+  position: relative;
+  margin-top: 40%;
+  bottom: 0;
+  margin-bottom: 10%;
+  color: white;
+  background-color: #384450;
+  padding: 100px;
+}
+
+#about-us > a {
+  font-size: 20px;
+}
+
+#aboutus-text {
+  font-size: 20px;
+  text-align: center;
+}
+
+#offer {
+  position: relative;
+  margin-top: -10%;
+  bottom: 0;
+  margin-bottom: 10%;
+  color: white;
+  background-color: rgb(48, 58, 68);
+  padding: 100px;
 }
 
 #image-track {
@@ -91,4 +122,20 @@ body.menu-toggled > .meta-link > span {
   color: white;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
+}
+
+#home-logo {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
