@@ -5,8 +5,11 @@
   --dark-blue: rgb(204, 100, 223);
   --violet: rgb(119, 188, 236);
 
-  --background-left: rgb(29, 33, 68);
-  --background-right: rgb(30, 25, 47);
+  /* --background-left: rgb(29, 33, 68);
+  --background-right: rgb(30, 25, 47); */
+
+  --background-left: #303a46;
+  --background-right: #1a2129;
 
   --conic-gradient: conic-gradient(
     var(--dark-blue),
@@ -158,10 +161,10 @@ body {
 
 #profiles {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   gap: clamp(10px, 0.8vw, 20px);
   justify-content: center;
-  margin-left: 80px;
+  /* margin-left: 80px; */
   width: clamp(600px, 80vw, 1400px);
 }
 
@@ -184,6 +187,7 @@ body {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  /* flex-direction: column; */
   height: calc(100% - clamp(8px, 1vw, 12px));
   justify-content: center;
   padding: clamp(8px, 1vw, 12px);
@@ -207,12 +211,25 @@ body {
   width: calc(100% - clamp(10px, 1.5vw, 20px));
 }
 
-.profile > .profile-content > .profile-name {
+.profile > .profile-content > .profile-text > .profile-name {
   color: white;
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
   font-size: clamp(1em, 2vw, 2em);
   margin: 0px;
   text-align: center;
+}
+
+.profile > .profile-content > .profile-text > .profile-job {
+  color: white;
+  /* font-family: "Rubik", sans-serif; */
+  font-size: clamp(1em, 1vw, 2em);
+  margin: 0px;
+  text-align: center;
+}
+
+#profile-text {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 1200px), (max-height: 900px) {
@@ -276,5 +293,5 @@ body {
 
 .link > span {
   color: white;
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
 }
