@@ -132,8 +132,14 @@ body.menu-toggled > .meta-link > span {
   0% {
     transform: translatey(0px);
   }
+  25% {
+    transform: translatey(-10px);
+  }
   50% {
-    transform: translatey(-20px);
+    transform: translatey(0px);
+  }
+  75% {
+    transform: translatey(10px);
   }
   100% {
     transform: translatey(0px);
