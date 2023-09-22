@@ -81,6 +81,7 @@ body:after {
   height: 56vmin;
   object-fit: cover;
   object-position: 100% center;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.233);
 }
 
 /* -- YouTube Link Styles -- */
