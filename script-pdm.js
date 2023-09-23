@@ -21,13 +21,13 @@ $(".suv").click(function () {
   checkClass();
   $(".item:not(.suv)").toggleClass("hide");
 });
-$(".yellow").click(function () {
+$(".muscle").click(function () {
   checkClass();
-  $(".item:not(.yellow)").toggleClass("hide");
+  $(".item:not(.muscle)").toggleClass("hide");
 });
-$(".red").click(function () {
+$(".tuner").click(function () {
   checkClass();
-  $(".item:not(.red)").toggleClass("hide");
+  $(".item:not(.tuner)").toggleClass("hide");
 });
 
 // Active tag
