@@ -30,79 +30,138 @@ body::-webkit-scrollbar-thumb {
   border: transparent; /* creates padding around scroll thumb */
 }
 
-h1 {
-  font-size: 50px;
-  color: white;
-  word-break: break-all;
+.grid::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
 }
 
-h2 {
-  font-size: 15px;
-  color: #ffffff;
-  word-wrap: break-word;
-  /* margin-bottom: 30px; */
+.grid::-webkit-scrollbar-track {
+  background: #272f37; /* color of the tracking area */
 }
 
-.row {
-  margin: 10px -16px;
+.grid::-webkit-scrollbar-thumb {
+  background-color: #48617a; /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: transparent; /* creates padding around scroll thumb */
 }
 
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 4px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  display: none; /* Hide all elements by default */
-}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: rgb(58, 84, 109);
-  padding: 3px;
-  border-radius: 5px;
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 8px 12px;
-  background-color: rgb(44, 44, 44);
-  cursor: grab;
-  color: white;
-  border-radius: 5px;
-  margin-bottom: 5px;
-}
-
-h1,
-h2 {
-  display: flex;
-  justify-content: center;
+.buttons {
+  padding: 20px 0 40px;
   text-align: center;
 }
 
-.btn:hover {
-  background-color: #7993ca;
+h1 {
+  text-align: center;
+  margin-top: 90px;
 }
 
-.btn.active {
-  background-color: #7993ca;
-  color: white;
+.container {
+  display: flex;
+  flex-direction: row;
+  transition: all 0.2s ease-in-out;
+  justify-content: center;
+  margin-right: 10%;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  -webkit-appearance: none;
+  border-radius: 100px;
+  font-family: inherit;
+  appearance: none;
+  background: none;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 20px;
+  outline: none;
+  opacity: 0.4;
+  border: none;
+  color: #fff;
+  width: 200px;
+}
+
+.button:hover,
+.button.active {
+  opacity: 1;
+}
+
+#pdm-line {
+  background-color: white;
+  height: 50vh;
+  width: 1px;
+  margin-right: 15px;
+}
+
+.grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 90%;
+  grid-gap: 20px;
+  display: grid;
+  width: 900px;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.item {
+  border-radius: 4px;
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+
+.item-pic {
+  position: absolute;
+  object-fit: cover;
+  height: 150px;
+  width: 284px;
+  z-index: 1;
+}
+
+.vehicle-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #272f37b0;
+  height: 60px;
+  position: relative;
+  z-index: 100;
+}
+
+.vehicle-brand-img {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  opacity: 0.6;
+  margin: 25px;
+}
+
+.vehicle-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.vehicle-price {
+  color: greenyellow;
+}
+
+.item.sport {
+  background: #06f;
+}
+.item.white {
+  background: #fff;
+}
+.item.grey {
+  background: #8e9aa7;
+}
+.item.yellow {
+  background: #fdc67e;
+}
+.item.red {
+  background: #eb7676;
+}
+
+.hide {
+  display: none;
 }
