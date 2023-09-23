@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #272f37;
+  margin: 0rem;
+  overflow: hidden;
+  font-family: "Rajdhani";
+  /* overflow-x: hidden; */
+  overflow-y: auto;
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 8px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #272f37; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #48617a; /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  border: transparent; /* creates padding around scroll thumb */
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  word-break: break-all;
+}
+
+h2 {
+  font-size: 15px;
+  color: #ffffff;
+  word-wrap: break-word;
+  /* margin-bottom: 30px; */
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 4px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: rgb(58, 84, 109);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  background-color: rgb(44, 44, 44);
+  cursor: grab;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #7993ca;
+}
+
+.btn.active {
+  background-color: #7993ca;
+  color: white;
+}
