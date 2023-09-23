@@ -159,3 +159,7 @@
     transform: translatey(0px);
   }
 }
+
+.active {
+  color: #849db4;
+}
