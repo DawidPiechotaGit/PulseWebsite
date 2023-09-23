@@ -13,13 +13,13 @@ $(".sport").click(function () {
   checkClass();
   $(".item:not(.sport)").toggleClass("hide");
 });
-$(".white").click(function () {
+$(".super").click(function () {
   checkClass();
-  $(".item:not(.white)").toggleClass("hide");
+  $(".item:not(.super)").toggleClass("hide");
 });
-$(".grey").click(function () {
+$(".suv").click(function () {
   checkClass();
-  $(".item:not(.grey)").toggleClass("hide");
+  $(".item:not(.suv)").toggleClass("hide");
 });
 $(".yellow").click(function () {
   checkClass();

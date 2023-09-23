@@ -89,7 +89,7 @@ h1 {
 
 #pdm-line {
   background-color: white;
-  height: 50vh;
+  height: 52.3vh;
   width: 1px;
   margin-right: 15px;
 }
@@ -131,10 +131,11 @@ h1 {
 
 .vehicle-brand-img {
   position: relative;
-  width: 25%;
-  height: 100%;
-  opacity: 0.6;
-  margin: 25px;
+  object-fit: scale-down;
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+  margin: 15px;
 }
 
 .vehicle-text {
@@ -149,7 +150,7 @@ h1 {
 .item.sport {
   background: #06f;
 }
-.item.white {
+.item.super {
   background: #fff;
 }
 .item.grey {
