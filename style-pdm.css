@@ -117,6 +117,8 @@ h1 {
   height: 150px;
   width: 284px;
   z-index: 1;
+  border: rgb(132, 156, 184) 2px solid;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.233);
 }
 
 .vehicle-info {
