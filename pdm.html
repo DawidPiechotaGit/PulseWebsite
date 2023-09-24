@@ -40,8 +40,17 @@
       </div>
     </div>
 
-    <h1>Premium Deluxe Motorsport</h1>
+    <!-- <h1>Premium Deluxe Motorsport</h1> -->
 
+    <div class="btn-container dropdown-sort">
+      <button class="btn-sort">SORT</button>
+      <div class="dropdown-content-sort">
+        <button class="btn-sort-content btn-pricedown">PRICE ↑</button>
+        <button class="btn-sort-content btn-priceup">PRICE ↓</button>
+        <button class="btn-sort-content btn-namedown">NAME ↑</button>
+        <button class="btn-sort-content btn-nameup">NAME ↓</button>
+      </div>
+    </div>
     <div class="container">
       <div class="buttons">
         <button class="button all active">All</button>
@@ -60,7 +69,7 @@
             <img class="vehicle-brand-img" src="./assets/vehicles/obey.webp" />
             <div class="vehicle-text">
               <a class="vehicle-name">10F</a>
-              <a class="vehicle-price">$100</a>
+              <a class="vehicle-price" data-price="101.00">$101</a>
             </div>
           </div>
         </div>
@@ -70,7 +79,7 @@
             <img class="vehicle-brand-img" src="./assets/vehicles/obey.webp" />
             <div class="vehicle-text">
               <a class="vehicle-name">10F Widebody</a>
-              <a class="vehicle-price">$100</a>
+              <a class="vehicle-price" data-price="99.00">$99</a>
             </div>
           </div>
         </div>
@@ -80,7 +89,7 @@
             <img class="vehicle-brand-img" src="./assets/vehicles/obey.webp" />
             <div class="vehicle-text">
               <a class="vehicle-name">9F</a>
-              <a class="vehicle-price">$100</a>
+              <a class="vehicle-price" data-price="90.00">$90</a>
             </div>
           </div>
         </div>
@@ -90,7 +99,7 @@
             <img class="vehicle-brand-img" src="./assets/vehicles/obey.webp" />
             <div class="vehicle-text">
               <a class="vehicle-name">9F Cabrio</a>
-              <a class="vehicle-price">$100</a>
+              <a class="vehicle-price" data-price="9900.00">$9900</a>
             </div>
           </div>
         </div>
@@ -100,7 +109,7 @@
             <img class="vehicle-brand-img" src="./assets/vehicles/obey.webp" />
             <div class="vehicle-text">
               <a class="vehicle-name">8F Drafter</a>
-              <a class="vehicle-price">$100</a>
+              <a class="vehicle-price" data-price="1000.00">$1000</a>
             </div>
           </div>
         </div>
@@ -110,19 +119,6 @@
             <img class="vehicle-brand-img" src="./assets/vehicles/obey.webp" />
             <div class="vehicle-text">
               <a class="vehicle-name">I-Wagen</a>
-              <a class="vehicle-price">$100</a>
-            </div>
-          </div>
-        </div>
-        <div class="item super">
-          <img class="item-pic" src="./assets/vehicles/adder.jpg" alt="" />
-          <div class="vehicle-info">
-            <img
-              class="vehicle-brand-img"
-              src="./assets/vehicles/truffade.webp"
-            />
-            <div class="vehicle-text">
-              <a class="vehicle-name">Adder</a>
               <a class="vehicle-price">$100</a>
             </div>
           </div>
@@ -157,6 +153,19 @@
             </div>
           </div>
         </div>
+        <div class="item super">
+          <img class="item-pic" src="./assets/vehicles/adder.jpg" alt="" />
+          <div class="vehicle-info">
+            <img
+              class="vehicle-brand-img"
+              src="./assets/vehicles/truffade.webp"
+            />
+            <div class="vehicle-text">
+              <a class="vehicle-name">Adder</a>
+              <a class="vehicle-price">$100</a>
+            </div>
+          </div>
+        </div>
         <div class="item sport">
           <img class="item-pic" src="./assets/vehicles/tailgater.jpg" alt="" />
           <div class="vehicle-info">
@@ -177,18 +186,6 @@
             </div>
           </div>
         </div>
-        <div class="item white"></div>
-        <div class="item grey"></div>
-        <div class="item red"></div>
-        <div class="item blue"></div>
-        <div class="item white"></div>
-        <div class="item grey"></div>
-        <div class="item grey"></div>
-        <div class="item yellow"></div>
-        <div class="item white"></div>
-        <div class="item white"></div>
-        <div class="item grey"></div>
-        <div class="item red"></div>
       </div>
     </div>
   </body>

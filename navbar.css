@@ -8,14 +8,10 @@
 
 #nav-bar {
   height: 22%;
-  /* background: radial-gradient(#36495ed0, #1a1f24d0); */
-  /* background-image: url("./assets/9.png"); */
-  /* filter: blur(5px); */
 }
 
 #nav-bar2 {
   height: 7%;
-  /* background: radial-gradient(#36495ed0, #1a1f24d0); */
   z-index: 100;
 }
 
@@ -42,7 +38,6 @@
 
 #header {
   height: 70%;
-  /* background-color: darkred; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -59,17 +54,9 @@
   opacity: 0.8;
 }
 
-/* #discord {
-  background-color: #384450;
-} */
-
 #home-logo {
   width: 400px;
 }
-
-/* #vote {
-  background-color: #384450;
-} */
 
 #home-logo {
   width: 400px;

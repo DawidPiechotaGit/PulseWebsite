@@ -172,3 +172,83 @@ h1 {
 #home-logo {
   width: 200px;
 }
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-sort:hover {
+  transition: 1.5s;
+  cursor: pointer;
+  background-color: #546679;
+  opacity: 1;
+}
+
+.btn-sort:not(:hover) {
+  transition: 1.5s;
+  background-color: #384450;
+}
+
+.dropdown-sort {
+  position: relative;
+  display: inline-block;
+}
+
+.btn-container {
+  position: relative;
+  margin-right: 26%;
+  margin-bottom: 25px;
+  left: 68%;
+  margin-top: 120px;
+}
+
+.dropdown-content-sort {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  z-index: 101;
+}
+
+.dropdown-content-sort > a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-content-sort > a:hover {
+  color: #849db4;
+  text-decoration: none;
+}
+
+.dropdown-sort:hover .dropdown-content-sort {
+  display: block;
+}
+
+.btn-sort {
+  background-color: #384450;
+  padding: 15px;
+  border: #272d33 solid 2px;
+  opacity: 1;
+  color: white;
+  min-width: 120px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.btn-sort-content {
+  background-color: #384450;
+  border: none;
+  color: white;
+  padding: 15px;
+  min-width: 120px;
+}
+
+.btn-sort-content:hover {
+  transition: 1.5s;
+  cursor: pointer;
+  background-color: #546679;
+  opacity: 1;
+}
