@@ -1,5 +1,17 @@
 A website for PulseRP
 
-![Alt text](image-2.png)
+### Home Page
 
-![Alt text](image-1.png)
+![Alt text](image.png)
+
+### Staff Page
+
+![Alt text](image-3.png)
+
+### Rules Page
+
+![Alt text](image-4.png)
+
+### PDM Page
+
+![Alt text](image-5.png)
