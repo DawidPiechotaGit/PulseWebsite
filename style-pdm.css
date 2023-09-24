@@ -180,14 +180,14 @@ h1 {
 }
 
 .btn-sort:hover {
-  transition: 1.5s;
+  transition: 0.7s;
   cursor: pointer;
   background-color: #546679;
   opacity: 1;
 }
 
 .btn-sort:not(:hover) {
-  transition: 1.5s;
+  transition: 0.7s;
   background-color: #384450;
 }
 
@@ -247,7 +247,7 @@ h1 {
 }
 
 .btn-sort-content:hover {
-  transition: 1.5s;
+  transition: 0.7s;
   cursor: pointer;
   background-color: #546679;
   opacity: 1;

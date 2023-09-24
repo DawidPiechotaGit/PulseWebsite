@@ -63,14 +63,13 @@
 }
 
 .header-button:hover {
-  transition: 1.5s;
+  transition: 0.5s;
   cursor: pointer;
   background-color: #546679;
-  opacity: 1;
 }
 
 .header-button:not(:hover) {
-  transition: 1.5s;
+  transition: 0.5s;
   background-color: #384450;
 }
 
