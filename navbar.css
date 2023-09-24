@@ -49,7 +49,7 @@
 .header-button {
   background-color: #384450;
   padding: 15px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   border: #272d33 solid 2px;
   opacity: 0.8;
 }
