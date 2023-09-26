@@ -288,18 +288,14 @@ h1 {
     margin-right: 0;
   }
   .grid {
-    grid-template-columns: 1fr 1fr 1fr;
-    max-width: 100%;
     grid-gap: 5px;
-    display: grid;
     width: 95%;
     height: 350px;
-    overflow-y: scroll;
     margin: 0 auto;
   }
   .item-pic {
     height: 75px;
-    width: 117px;
+    width: 110px;
   }
   .vehicle-info {
     height: 30px;
@@ -311,6 +307,6 @@ h1 {
   }
   .item {
     height: 75px;
-    width: 117px;
+    width: 110px;
   }
 }
