@@ -257,6 +257,14 @@ h1 {
   .btn-container {
     margin-top: 80px;
   }
+  .btn-sort-content {
+    background-color: #384450;
+    border: none;
+    color: white;
+    padding: 8px;
+    min-width: 80px;
+    font-size: 8px;
+  }
   .btn-sort {
     padding: 8px;
     min-width: 80px;
