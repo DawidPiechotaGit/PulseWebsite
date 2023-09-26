@@ -167,6 +167,9 @@
   #home-logo {
     width: 150px;
   }
+  .pdm-home-logo#home-logo {
+    width: 100px;
+  }
   .header-button {
     background-color: #384450;
     padding: 10px;

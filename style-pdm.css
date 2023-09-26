@@ -252,3 +252,65 @@ h1 {
   background-color: #546679;
   opacity: 1;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+  .btn-container {
+    margin-top: 80px;
+  }
+  .btn-sort {
+    padding: 12px;
+    min-width: 120px;
+    font-size: 12px;
+  }
+  .button {
+    font-size: 12px;
+    padding: 10px;
+    width: 200px;
+    align-items: center;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0;
+  }
+  #pdm-line {
+    background-color: white;
+    height: 1px;
+    width: 90%;
+    margin-right: 15px;
+    margin: 20px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    transition: all 0.2s ease-in-out;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    grid-gap: 5px;
+    display: grid;
+    width: 95%;
+    height: 350px;
+    overflow-y: scroll;
+    margin: 0 auto;
+  }
+  .item-pic {
+    height: 75px;
+    width: 117px;
+  }
+  .vehicle-info {
+    height: 30px;
+  }
+  .vehicle-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+  }
+  .item {
+    height: 75px;
+    width: 117px;
+  }
+}
