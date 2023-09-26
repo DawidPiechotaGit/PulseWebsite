@@ -192,8 +192,11 @@ body.menu-toggled > .meta-link > span {
 }
 
 @media only screen and (min-width: 200px) and (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
   #about-us {
-    margin-top: 100%;
+    margin-top: 90%;
     padding: 30px;
   }
   #image-track > .image {
@@ -211,5 +214,20 @@ body.menu-toggled > .meta-link > span {
   #aboutus-text {
     font-size: 10px;
     text-align: center;
+  }
+
+  #offer {
+    position: relative;
+    margin-top: -10%;
+    bottom: 0;
+    /* margin-bottom: 10%; */
+    color: white;
+    background-color: rgb(48, 58, 68);
+    padding: 30px;
+    font-size: 10px;
+  }
+
+  #offer > a {
+    font-size: 10px;
   }
 }

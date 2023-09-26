@@ -193,6 +193,10 @@ i {
     font-size: 0.8em;
     margin-top: 4px;
   }
+
+  #offer-body {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 320px) {
