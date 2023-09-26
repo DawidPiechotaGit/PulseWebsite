@@ -76,3 +76,30 @@ body::-webkit-scrollbar-thumb {
   font-size: 22px;
   font-weight: bold;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  #rules-content-titles > #content-title {
+    font-size: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  #rules-content-titles > a {
+    font-size: 10px;
+    text-align: center;
+  }
+  #title-rules {
+    width: 85%;
+    margin-top: 15%;
+    margin-left: 5%;
+    font-size: 8px;
+  }
+  #line-1 {
+    margin-top: 60px;
+    height: 350px;
+    margin-left: 30px;
+  }
+  #rules-content-titles {
+    gap: 12px;
+    margin: 0 auto;
+  }
+}

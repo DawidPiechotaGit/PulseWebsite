@@ -253,7 +253,7 @@ h1 {
   opacity: 1;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 400px) {
+@media only screen and (min-width: 200px) and (max-width: 500px) {
   .btn-container {
     margin-top: 80px;
   }
