@@ -164,7 +164,6 @@ body {
   flex-wrap: wrap-reverse;
   gap: clamp(10px, 0.8vw, 20px);
   justify-content: center;
-  /* margin-left: 80px; */
   width: clamp(600px, 80vw, 1400px);
 }
 
@@ -294,4 +293,17 @@ body {
 .link > span {
   color: white;
   /* font-family: "Rubik", sans-serif; */
+}
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  #profiles {
+    width: clamp(400px, 80vw, 1400px);
+  }
+  #background {
+    margin-left: -18%;
+    transform: scale(0.55);
+  }
+  .profile > .profile-content {
+    padding: clamp(25px, 1vw, 12px);
+  }
 }

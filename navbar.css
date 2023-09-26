@@ -163,7 +163,7 @@
   }
 }
 
-@media only screen and (min-width: 200px) and (max-width: 400px) {
+@media only screen and (min-width: 200px) and (max-width: 500px) {
   #home-logo {
     width: 150px;
   }
@@ -179,6 +179,13 @@
   }
   #navigation {
     padding-left: 0;
+    justify-content: center;
+    gap: 25px;
+    font-size: 10px;
+  }
+  #navigation2 {
+    padding-left: 0;
+    height: 100%;
     justify-content: center;
     gap: 25px;
     font-size: 10px;
