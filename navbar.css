@@ -149,3 +149,35 @@
 .active {
   color: #849db4;
 }
+
+@media only screen and (min-width: 500px) and (max-width: 825px) {
+  #home-logo {
+    width: 250px;
+  }
+  .header-button {
+    background-color: #384450;
+    padding: 10px;
+    border: #272d33 solid 2px;
+    opacity: 0.8;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+  #home-logo {
+    width: 150px;
+  }
+  .header-button {
+    background-color: #384450;
+    padding: 10px;
+    border: #272d33 solid 2px;
+    opacity: 0.8;
+    font-size: 6px;
+  }
+  #navigation {
+    padding-left: 0;
+    justify-content: center;
+    gap: 25px;
+    font-size: 10px;
+  }
+}

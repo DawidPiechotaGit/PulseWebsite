@@ -138,3 +138,78 @@ body.menu-toggled > .meta-link > span {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
 }
+
+@media only screen and (min-width: 500px) and (max-width: 1771px) {
+  #about-us {
+    position: relative;
+    margin-top: 50%;
+    bottom: 0;
+    margin-bottom: 10%;
+    color: white;
+    background-color: #384450;
+    padding: 100px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1540px) {
+  #about-us {
+    margin-top: 60%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1230px) {
+  #about-us {
+    margin-top: 70%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1030px) {
+  #about-us {
+    margin-top: 80%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 850px) {
+  #about-us {
+    margin-top: 90%;
+  }
+  #image-track > .image {
+    width: 30vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.233);
+  }
+  #image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 5%;
+    top: 55%;
+    transform: translate(0%, -50%);
+    user-select: none;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+  #about-us {
+    margin-top: 100%;
+    padding: 30px;
+  }
+  #image-track > .image {
+    width: 30vmin;
+    height: 56vmin;
+  }
+  #image-track {
+    left: 5%;
+    top: 47%;
+  }
+  #about-us > a {
+    font-size: 10px;
+  }
+
+  #aboutus-text {
+    font-size: 10px;
+    text-align: center;
+  }
+}
